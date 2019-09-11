@@ -1,0 +1,227 @@
+/*********************************
+
+--------------LOGIN---------------
+
+*********************************/
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+/*IMAGEM DE FUNDO*/
+.capa{
+    background-image:url(EVENTOS/CAPA-5.jpg);
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size:cover;    
+}
+
+/*POSICIONAMENTO - LOGO*/
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    height: 200%;
+    float: left;
+    padding: 30px;
+}
+/* /* FUNDO BRANCO - EM BAIXO DE NOME */
+/* .fundo-branco{
+    background-color: white;
+    width: 400px;
+    height: 40px;
+    border: 9px solid white;
+    border-radius: 5px 5px 5px 5px;
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; */
+
+
+/* .nome{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+} */
+
+/*POSICIONAR CONTAINER BRANCO*/
+/* .container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/*POSICIONAR TEXTO
+.texto{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+} */
+/* 
+.fundo-branco1{
+    width:400px;
+    height: 50px;
+} */
+
+/* .sobrenome{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+} */
+
+/*----------------------------------*/
+/* .a-esquerda{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+} */
+
+/* .senha{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+} */
+
+/* .senhanovamente{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+} */
+
+/* .telefone{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+} */
+
+/* .cpf{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:white;
+} */
+
+/* .fundo-roxo{
+    background-color:#7d0093;
+    width: 300px;
+    height:50px;
+} */
+
+/* .caixa p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color:white;
+    /* display: flex;
+    justify-items: center;
+    align-items: center; */
+/* } 
+
+.fundo-roxo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 15px 15px 15px;
+    background: rgba(125,0,147,.5);
+} */
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: white;
+}
+
+.content{
+    display:flex;
+    justify-content: center;
+}
+
+.contato{
+    width:100%;
+    max-width: 500px;
+}
+
+.conta{
+    padding:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:32px;
+    color:white;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.field{
+    padding: 10px;
+    margin-bottom: 15px;
+    border:1px solid #ddd;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+}
+
+textarea{
+    height: 150px;
+}
+
+@media (max-width: 1200px) {
+    .capa {
+       width: 100%;
+       height: 1000px;
+    }
+
+    .logo{
+        width:100px;
+        height:100px;
+        padding: 10px;
+        width:50%;
+    }
+
+    .form{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conta{
+        display:flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:825px){
+    .conta{
+        font-size:28px;
+        text-align: center;
+    }
+
+    .logo{
+        width:70px;
+        height:70px;
+        width:30%;
+    }
+}
+
+@media(max-width:485px){
+    .conta{
+        font-size:18px;
+        padding-left: 80px;
+        text-align: center;
+        font-size:20px;
+    }
+
+    .capa{
+        width:100%;
+        height:700px;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+}

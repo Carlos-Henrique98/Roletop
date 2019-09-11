@@ -1,0 +1,314 @@
+/*********************************
+
+--------------LOGIN---------------
+
+*********************************/
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+/* .logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width:50%;
+    float: left;
+    padding: 100px;
+} */
+
+body{
+    width:100%;
+}
+
+/*FOTO AO FUNDO*/
+.capa{
+    background-image:url(EVENTOS/CAPA-5.jpg);
+    width: 100%;
+    height: 1200px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+/*POSIÇÃO DO CONTAINER PRETO*/
+.container{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/*FUNDO PRETO - ATRAS DE LOGIN*/
+.fundo-preto{
+    background: rgba(0,0,0,.5);
+    width: 300px;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    border-radius: 1px 1px 1px 1px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+/*LOGIN - ATRAS DO FUNDO PRETO*/
+/* .texto-login{
+    color: white;
+    font-size: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+/*POSIÇÃO - FUNDO BRANCO*/
+/* .container1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+} */
+
+/*EMAIL / SENHA - EM CIMA DO CONTAINER BRANCO */
+/* .email{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+} */
+
+/*SENHA - EM CIMA DO CONTAINER BRANCO*/
+/* .senha{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+} */
+
+/* FUNDO BRANCO - EMAIL/USUARIO
+.fundo-branco{
+    /* background-color: white;
+    width: 400px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 5px 5px 5px 5px;   */
+
+/* 
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+/*FUNDO BRANCO - SENHA*/
+/* .fundo-branco1{
+    background-color: white;
+    width: 400px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 5px 5px 5px 5px;
+   
+} */
+
+/*ESQUECEU A SUA SENHA?*/
+/* .esqueci{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/*CONTAINER ROXO*/
+/* .fundo-roxo{
+    background-color:#7d0093;
+    width: 400px;
+    height: 90px;
+    border: 1px solid #7d0093;
+    border-radius: 15px 15px 15px 15px;
+    
+} */
+
+/*ENVIAR - DENTRO DO CONTAINER ROXO*/
+/* .caixa2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color:white;
+    text-align: center;
+} */
+/* 
+.container3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+} */
+
+/*POSIÇÃO DO CONTAINER ROXO*/
+/* .fundo-roxo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(125,0,147,.5);
+    
+} */
+/****************************************
+
+-------------------GET----------------
+
+***************************************/
+form{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body{
+    text-align: center;
+}
+
+
+/*EMAIL*/
+form label{
+    color: white;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:24px;
+}
+
+/* form*{ */
+    /* margin: 5px 0; */
+    /* margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px; */
+    /* text-align:left;
+    overflow: hidden; */
+    /* overflow-x: hidden;
+    overflow-y:hidden; */
+/* } */
+
+
+/* label{
+    cursor: default;
+} */
+
+/*INPUT EMAIL*/
+form input{
+    width: 300px;
+    height: 30px;
+    /* border: none; */
+    /* border-top-color:initial;
+    border-top-style: none;
+    border-top-width: initial;
+    border-top-color: initial;
+    border-right-style: none;
+    border-right-width: initial;
+    border-bottom-color:initial;
+    border-bottom-style: none;
+    border-bottom-width: initial;
+    border-left-color:initial;
+    border-left-style:none;
+    border-left-width: initial;
+    border-image-source:initial;
+    border-image-slice:initial;
+    border-image-width: initial;
+    border-image-outset:initial;
+    border-image-repeat:initial; */
+    /* text-align: left; */
+    /* padding: 0 2px; */
+    /* padding-top:0px;
+    padding-right: 2px;
+    padding-bottom:0px;
+    padding-left: 2px; */
+}
+
+/* form *{ */
+    /* margin:5px 0; */
+    /* margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px; */
+    /* overflow: hidden; */
+    /* overflow-x: hidden;
+    overflow-y:hidden; */
+/* } */
+
+form input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    /* border-top-color:initial;
+    border-top-style: none;
+    border-top-width: initial;
+    border-top-color: initial;
+    border-right-style: none;
+    border-right-width: initial;
+    border-bottom-color:initial;
+    border-bottom-style: none;
+    border-bottom-width: initial;
+    border-left-color:initial;
+    border-left-style:none;
+    border-left-width: initial;
+    border-image-source:initial;
+    border-image-slice:initial;
+    border-image-width: initial;
+    border-image-outset:initial;
+    border-image-repeat:initial; */
+    /* text-align: left;
+    padding: 0 2px; */
+    /* padding-top:0px;
+    padding-right: 2px;
+    padding-bottom:0px;
+    padding-left: 2px; */
+}
+
+/* input{
+    -webkit-writing-mode: horizontal-tb;
+    text-rendering: auto;
+    color:initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display:inline-block;
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering:logical;
+    cursor: text;
+} */
+
+/* form input[type="submit"]{
+    background-color: #7d0093;
+    border: 1px solid #7d0093;
+    color: black;
+    margin: 20px 0;
+    height: 40px;
+    border-radius: 3px;
+    font-weight: bold;
+    text-align: center;
+} */
+
+submit{
+    background-color:#7d0093;
+}
+
+@media (max-width: 1000px){
+
+}
+
+@media (max-width: 825px){
+
+}
+
+@media (max-width: 625px){
+
+}

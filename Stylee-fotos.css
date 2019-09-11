@@ -1,0 +1,423 @@
+/*************************************
+
+---------------FOTOS------------------
+
+*************************************/
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+
+body{
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color:black;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+nav #bt-mobile-menu {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3em;
+    list-style-type: none;
+}
+
+nav ul > li {
+    width: 100%;
+    text-align: center;
+}
+
+nav ul > li > a {
+    padding: 0.4em;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul > li > a:hover {
+    background-color:#7d0093;
+    color: #fff;
+}
+
+nav ul > li:last-child {
+    /* font-family: 'Janda Manatee Solid', 'Londrina Solid', cursive; */
+}
+
+a.active {
+    /* color: #a70000; */
+}
+
+/*****************************************
+
+--------------LOGO
+
+****************************************/
+
+
+
+.logo{
+    padding:70px;
+    padding-left:10px;
+    font-weight: bold;
+}
+
+
+.capa{
+    background-image:url(EVENTOS/CAPA-5.jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.galeria p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:62px;
+    color:white;
+    background: rgba(0,0,0,.4);
+    text-align: center;
+    
+}
+
+.galeria{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+.caixa1{
+    background: rgba(0,0,0,.2);
+    width:100%;
+    height: 100%;
+}
+
+.fotos-cima{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding:15px;
+}
+
+.fotos-meio{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.fotos-baixo{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.caixa2{
+    background-color:#ffc600;
+}
+
+.caixa-branco{
+    background-color:white;
+    color:white;
+}
+
+.caixa3{
+    background-color:black;
+    width:100%;
+    height: 150px;
+
+}
+
+.local{
+    padding:15px;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.rodape p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size:18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media (max-width: 1200px){
+    .caixa2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:50%;
+    }
+
+    
+    .galeria p{
+        padding: 20px;
+        font-size: 24px;
+        /* display: flex;
+        justify-content:center;
+        align-items: center; */
+    }
+
+    nav{
+        font-size:10px;
+        width:85%;
+    }
+    .fotos-cima{
+        
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        width:103%;
+    }
+
+    .fotos-meio{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+       
+    }
+    .caixa2{
+        width:120%;
+    }
+
+    .fotos-baixo{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    .local{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .caixa3 p{
+        width: 105%;
+    }
+
+    .rodape p{
+        font-size:14px;
+      
+    }
+
+
+    .caixa2{
+        width:100%;
+    }
+}
+
+@media (max-width: 1000px){
+    .rodape p{
+        font-size:12px;
+        width:100%;
+    }
+
+    .galeria p{
+        width:110%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .caixa2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:130%;
+    }
+    .fotos-cima{
+        
+        display:flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+
+    }
+
+    .fotos-meio{
+        display:flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+    }
+
+    .fotos-baixo{
+        display:flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+    }
+    .local{
+        display:flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+    }
+    
+
+
+}
+
+@media (max-width: 825px){
+    .rodape p{
+        font-size:12px;
+        width:100%;
+    }
+
+    .galeria p{
+        width:110%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .caixa2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:120%;
+    }
+    
+}
+
+@media (max-width: 625px){
+    .logotipo > img{
+        width:45%;
+        padding-left:30px;
+    }
+
+    .galeria p{
+        padding: 20px;
+        font-size: 34px;
+        /* display: flex;
+        justify-content:center;
+        align-items: center; */
+    }
+
+    .galeria{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .fotos-cima{
+        
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .fotos-meio{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .fotos-baixo{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .local{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+   
+    .capa{
+        width:100%;
+    }
+
+    .caixa1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .caixa3 p{
+        font-size:15px;
+    }
+
+    nav{
+        font-size:10px;
+    }
+
+    .logotipo img{
+        width:250px;
+        height:250px;
+      display:flex;
+      justify-content:center;
+      align-items: center;
+    }
+}
+
+@media (max-width: 485px){
+    .section-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .caixa2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:107%;
+    }
+    .rodape p{
+        font-size:12px;
+        width:100%;
+    }
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .galeria{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .capa{
+        width:110%;
+    }
+
+    nav{
+        width: 133%;
+    }
+
+    .local{
+        width:107%;
+    }
+}

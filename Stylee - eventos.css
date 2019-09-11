@@ -1,0 +1,182 @@
+/*********************************
+
+---------CADASTRO-EVENTOS-----------
+
+*********************************/
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.capa{
+    background-image:url(EVENTOS/CAPA-5.jpg);
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+/* .container{
+    background: rgba(0,0,0,.4);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+} */
+
+.descricao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:32px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: black;
+    background: rgba(0,0,0,.4);
+}
+
+.conta{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size:18px;
+    padding:10px;
+}
+
+.contato{
+    padding:40px;
+}
+
+
+/* .container p{
+
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+} */
+
+/* .container1{
+    width: 100%;
+    height: 700px;
+    background: rgba(0,0,0,.4);
+    padding: 20px;
+}
+
+.nome{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    color:white;
+} */
+
+
+/*DO LADO DO CONTAINER 6*/
+/* .container2{
+    width: 300px;
+    height:40px;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+} */
+
+/*DO LADO DO CONTAINER 2*/
+/* .container6{
+    width: 300px;
+    height:40px;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    
+} */
+
+/* .email-usuario{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+} */
+
+/* .container3{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+} */
+
+/* .tiposeventos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+} */
+
+/* .container4{
+    width: 300px;
+    height: 40px;
+    background-color:white;
+    border-radius: 5px 5px 5px 5px;
+} */
+
+/* .dataevento{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+} */
+ 
+/* .container5{
+    width: 300px;
+    height: 40px;
+    background-color:white;
+    border-radius: 5px 5px 5px 5px;
+} */
+
+
+/* body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: white;
+} */
+
+/* .content{
+    display:flex;
+    justify-content: center;
+} */
+
+/* .contato{
+    width:100%;
+    max-width: 500px;
+} */
+
+/* .conta{
+    padding:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:32px;
+    color:white;
+} */
+
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.field{
+    padding: 10px;
+    margin-bottom: 15px;
+    border:1px solid #ddd;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+}
+
+textarea{
+    height: 150px;
+}
